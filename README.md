@@ -33,3 +33,30 @@ It helps marketing or sales teams **segment customers** and make better decision
    ```bash
    git clone https://github.com/yourusername/cltv_app.git
    cd cltv_app
+
+2. **Create & activate a virtual environment**
+
+bash
+Copy
+Edit
+python -m venv venv
+
+# Windows:
+venv\Scripts\activate
+
+# macOS/Linux:
+source venv/bin/activate
+
+3. **Install dependencies**
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+
+4. **Run the app**
+
+bash
+Copy
+Edit
+streamlit run app.py
