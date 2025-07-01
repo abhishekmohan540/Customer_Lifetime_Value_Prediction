@@ -5,7 +5,7 @@ import numpy as np
 import cloudpickle
 
 # ✅ Load the saved pipeline
-with open('C:/Users/Abhishek Mohan/Documents/cltv_app/cltv_best_model.pkl', 'rb') as f:
+with open('cltv_best_model.pkl', 'rb') as f:
     model = cloudpickle.load(f) 
 
 # ✅ Page title
